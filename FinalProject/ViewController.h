@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    int option; 
+}
+- (IBAction)selectOption:(id)sender;
 
 @end

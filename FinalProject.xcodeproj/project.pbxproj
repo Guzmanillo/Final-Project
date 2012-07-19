@@ -21,6 +21,15 @@
 		3FE164CE15B6FB7800D3251B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE164AC15B6FB7800D3251B /* Foundation.framework */; };
 		3FE164D615B6FB7800D3251B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FE164D415B6FB7800D3251B /* InfoPlist.strings */; };
 		3FE164D915B6FB7800D3251B /* FinalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE164D815B6FB7800D3251B /* FinalProjectTests.m */; };
+		3FE164E315B6FBD900D3251B /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE164E215B6FBD900D3251B /* bubble.png */; };
+		3FE164E615B6FDA700D3251B /* BricksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE164E515B6FDA700D3251B /* BricksViewController.m */; };
+		3FE164E815B6FEC600D3251B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE164E715B6FEC600D3251B /* AVFoundation.framework */; };
+		3FE164EA15B6FEEA00D3251B /* bricksaudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FE164E915B6FEEA00D3251B /* bricksaudio.mp3 */; };
+		3FE164ED15B6FFCA00D3251B /* ControlBrick.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE164EC15B6FFCA00D3251B /* ControlBrick.m */; };
+		3FE1650015B70B0E00D3251B /* PongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE164FF15B70B0E00D3251B /* PongViewController.m */; };
+		3FE1650215B7109300D3251B /* pongaudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1650115B7109300D3251B /* pongaudio.mp3 */; };
+		3FE1650915B7604600D3251B /* HighscoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1650815B7604500D3251B /* HighscoresViewController.m */; };
+		3FE1650B15B77F0900D3251B /* Highscores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1650A15B77F0900D3251B /* Highscores.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +47,35 @@
 		3FE164AA15B6FB7800D3251B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FE164AC15B6FB7800D3251B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FE164AE15B6FB7800D3251B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3FE164B215B6FB7800D3251B /* FinalProject-Info.plist */ = {isa = PBXFileReference; path = "FinalProject-Info.plist"; sourceTree = "<group>"; };
+		3FE164B215B6FB7800D3251B /* FinalProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalProject-Info.plist"; sourceTree = "<group>"; };
 		3FE164B415B6FB7800D3251B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FE164B615B6FB7800D3251B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FE164B815B6FB7800D3251B /* FinalProject-Prefix.pch */ = {isa = PBXFileReference; path = "FinalProject-Prefix.pch"; sourceTree = "<group>"; };
-		3FE164B915B6FB7800D3251B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FE164B815B6FB7800D3251B /* FinalProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalProject-Prefix.pch"; sourceTree = "<group>"; };
+		3FE164B915B6FB7800D3251B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FE164BA15B6FB7800D3251B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FE164BD15B6FB7800D3251B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3FE164C015B6FB7800D3251B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3FE164C215B6FB7800D3251B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3FE164C215B6FB7800D3251B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3FE164C315B6FB7800D3251B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FE164CA15B6FB7800D3251B /* FinalProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE164CB15B6FB7800D3251B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3FE164D315B6FB7800D3251B /* FinalProjectTests-Info.plist */ = {isa = PBXFileReference; path = "FinalProjectTests-Info.plist"; sourceTree = "<group>"; };
+		3FE164D315B6FB7800D3251B /* FinalProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalProjectTests-Info.plist"; sourceTree = "<group>"; };
 		3FE164D515B6FB7800D3251B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3FE164D715B6FB7800D3251B /* FinalProjectTests.h */ = {isa = PBXFileReference; path = FinalProjectTests.h; sourceTree = "<group>"; };
+		3FE164D715B6FB7800D3251B /* FinalProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalProjectTests.h; sourceTree = "<group>"; };
 		3FE164D815B6FB7800D3251B /* FinalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalProjectTests.m; sourceTree = "<group>"; };
+		3FE164E215B6FBD900D3251B /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		3FE164E415B6FDA700D3251B /* BricksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BricksViewController.h; sourceTree = "<group>"; };
+		3FE164E515B6FDA700D3251B /* BricksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BricksViewController.m; sourceTree = "<group>"; };
+		3FE164E715B6FEC600D3251B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FE164E915B6FEEA00D3251B /* bricksaudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bricksaudio.mp3; sourceTree = "<group>"; };
+		3FE164EB15B6FFCA00D3251B /* ControlBrick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlBrick.h; sourceTree = "<group>"; };
+		3FE164EC15B6FFCA00D3251B /* ControlBrick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlBrick.m; sourceTree = "<group>"; };
+		3FE164FE15B70B0E00D3251B /* PongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PongViewController.h; sourceTree = "<group>"; };
+		3FE164FF15B70B0E00D3251B /* PongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PongViewController.m; sourceTree = "<group>"; };
+		3FE1650115B7109300D3251B /* pongaudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pongaudio.mp3; sourceTree = "<group>"; };
+		3FE1650715B7604500D3251B /* HighscoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighscoresViewController.h; sourceTree = "<group>"; };
+		3FE1650815B7604500D3251B /* HighscoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighscoresViewController.m; sourceTree = "<group>"; };
+		3FE1650A15B77F0900D3251B /* Highscores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Highscores.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE164E815B6FEC600D3251B /* AVFoundation.framework in Frameworks */,
 				3FE164AB15B6FB7800D3251B /* UIKit.framework in Frameworks */,
 				3FE164AD15B6FB7800D3251B /* Foundation.framework in Frameworks */,
 				3FE164AF15B6FB7800D3251B /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +106,7 @@
 		3FE1649B15B6FB7800D3251B = {
 			isa = PBXGroup;
 			children = (
+				3FE164E715B6FEC600D3251B /* AVFoundation.framework */,
 				3FE164B015B6FB7800D3251B /* FinalProject */,
 				3FE164D115B6FB7800D3251B /* FinalProjectTests */,
 				3FE164A915B6FB7800D3251B /* Frameworks */,
@@ -114,9 +138,21 @@
 			isa = PBXGroup;
 			children = (
 				3FE164B915B6FB7800D3251B /* AppDelegate.h */,
+				3FE164E915B6FEEA00D3251B /* bricksaudio.mp3 */,
+				3FE1650115B7109300D3251B /* pongaudio.mp3 */,
+				3FE164E215B6FBD900D3251B /* bubble.png */,
 				3FE164BA15B6FB7800D3251B /* AppDelegate.m */,
 				3FE164BC15B6FB7800D3251B /* MainStoryboard_iPhone.storyboard */,
+				3FE1650715B7604500D3251B /* HighscoresViewController.h */,
+				3FE1650815B7604500D3251B /* HighscoresViewController.m */,
+				3FE164FE15B70B0E00D3251B /* PongViewController.h */,
+				3FE164FF15B70B0E00D3251B /* PongViewController.m */,
+				3FE1650A15B77F0900D3251B /* Highscores.plist */,
 				3FE164BF15B6FB7800D3251B /* MainStoryboard_iPad.storyboard */,
+				3FE164E415B6FDA700D3251B /* BricksViewController.h */,
+				3FE164E515B6FDA700D3251B /* BricksViewController.m */,
+				3FE164EB15B6FFCA00D3251B /* ControlBrick.h */,
+				3FE164EC15B6FFCA00D3251B /* ControlBrick.m */,
 				3FE164C215B6FB7800D3251B /* ViewController.h */,
 				3FE164C315B6FB7800D3251B /* ViewController.m */,
 				3FE164B115B6FB7800D3251B /* Supporting Files */,
@@ -227,6 +263,10 @@
 				3FE164B515B6FB7800D3251B /* InfoPlist.strings in Resources */,
 				3FE164BE15B6FB7800D3251B /* MainStoryboard_iPhone.storyboard in Resources */,
 				3FE164C115B6FB7800D3251B /* MainStoryboard_iPad.storyboard in Resources */,
+				3FE164E315B6FBD900D3251B /* bubble.png in Resources */,
+				3FE164EA15B6FEEA00D3251B /* bricksaudio.mp3 in Resources */,
+				3FE1650215B7109300D3251B /* pongaudio.mp3 in Resources */,
+				3FE1650B15B77F0900D3251B /* Highscores.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +304,10 @@
 				3FE164B715B6FB7800D3251B /* main.m in Sources */,
 				3FE164BB15B6FB7800D3251B /* AppDelegate.m in Sources */,
 				3FE164C415B6FB7800D3251B /* ViewController.m in Sources */,
+				3FE164E615B6FDA700D3251B /* BricksViewController.m in Sources */,
+				3FE164ED15B6FFCA00D3251B /* ControlBrick.m in Sources */,
+				3FE1650015B70B0E00D3251B /* PongViewController.m in Sources */,
+				3FE1650915B7604600D3251B /* HighscoresViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

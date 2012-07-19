@@ -35,4 +35,18 @@
     }
 }
 
+- (IBAction)selectOption:(id)sender {
+    option = [sender tag];
+    switch (option) {
+        case 1:
+            [self performSegueWithIdentifier: @"brick" sender: self];
+            break;
+        case 2:
+            [self performSegueWithIdentifier: @"pong" sender: self];
+            break;
+        case 3:
+            [self performSegueWithIdentifier: @"highscores" sender: self];
+            break;
+    }
+}
 @end
